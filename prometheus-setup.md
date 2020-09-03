@@ -1,5 +1,6 @@
 # Configure Prometheus operator -
-helm install stable/prometheus-operator
+helm install stable/prometheus-operator 
+
 username-"admin" password - "prom-operator"
 
 
