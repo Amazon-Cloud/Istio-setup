@@ -1,7 +1,6 @@
 # Istio-setup
 
-
-istioctl install -f istio-install.yaml
+Istioctl install -f istio-install.yaml
 This would install the istio with the above file manifest .
 
 1. istioctl dashboard prometheus
@@ -19,4 +18,14 @@ This would install the istio with the above file manifest .
 
 12. kubectl apply -f samples/bookinfo/networking/destination-rule-all.yaml
 13. samples/bookinfo/platform/kube/cleanup.sh
+
+# Configure AWS CLI -
+1. Download aws cli - https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html 
+2. Add the cli bin to path variables on windows. 
+3. Configure your cli by command - *aws configure* . Official documentation link - https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
+4. Connect to your EKS cluster - https://docs.aws.amazon.com/cli/latest/reference/eks/update-kubeconfig.html 
+for eg : aws eks update-kubeconfig --name <aws cluster name> 
+  
+# Configure Kubectl - 
+https://kubernetes.io/docs/tasks/tools/install-kubectl/
 
