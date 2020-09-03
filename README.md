@@ -6,9 +6,7 @@ Download istioctl - https://istio.io/latest/docs/setup/getting-started/#download
 This would install the istio with the above file manifest .
 
 1.Istioctl install -f istio-install.yaml. 
-2. Dashboards after you install - 
-  a) istioctl dashboard grafana - default username/password - admin/admin
-  b) istioctl dashboard prometheus
+2. Dashboards after you install -   a) istioctl dashboard grafana - default username/password - admin/admin    b) istioctl dashboard prometheus
 3. kubectl label namespace default istio-injection=enabled
 4. kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml
 5. kubectl apply -f samples/bookinfo/networking/bookinfo-gateway.yaml
