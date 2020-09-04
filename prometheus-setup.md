@@ -1,7 +1,7 @@
 # Configure Prometheus operator -
 - helm install prometheus-operator stable/prometheus-operator
 - Get the pod name - **kubectl get pods -n management | grep grafana**
-- kubectl port-forward <grafana pod name> 9090 -n management 
+- kubectl port-forward grafana-pod-name 9090 -n management 
 - You should be able to go to grafana dashboard - http://localhost:3000 
 - Use the login credentials to login into grafana. 
 - username-"admin" password - "prom-operator"
