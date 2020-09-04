@@ -1,5 +1,5 @@
 # Configure Prometheus operator -
-- helm install stable/prometheus-operator 
+- helm install prometheus-operator stable/prometheus-operator 
 - Use the login credentials to login into grafana. 
 - username-"admin" password - "prom-operator"
 
