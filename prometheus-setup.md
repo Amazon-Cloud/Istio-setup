@@ -1,3 +1,7 @@
+# Configure helm - 
+- helm repo add stable https://kubernetes-charts.storage.googleapis.com/
+- helm repo update   
+
 # Configure Prometheus operator -
 - helm install prometheus-operator stable/prometheus-operator
 - Get the pod name - **kubectl get pods -n management | grep grafana**
@@ -8,7 +12,7 @@
 
 
 
-# Configure AWS CLI -
+# Download & Configure AWS CLI -
 - Download aws cli - https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html
 - Add the cli bin to path variables on windows.
 - Configure your cli by command - **aws configure** . Official documentation link - https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html 
