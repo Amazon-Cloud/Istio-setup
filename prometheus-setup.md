@@ -18,7 +18,7 @@
 - Configure your cli by command - **aws configure** . Official documentation link - https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html 
 - Connect to your EKS cluster - https://docs.aws.amazon.com/cli/latest/reference/eks/update-kubeconfig.html for eg : **aws eks update-kubeconfig --name your-cluster-name**
 
-# Configure AWS CLI -
+# Configure Kubernete CLI -
 - https://kubernetes.io/docs/tasks/tools/install-kubectl/
 
 # Generate manual manifest and apply 
