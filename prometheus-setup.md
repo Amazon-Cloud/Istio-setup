@@ -12,3 +12,8 @@
 
 # Configure AWS CLI -
 - https://kubernetes.io/docs/tasks/tools/install-kubectl/
+
+# Generate manual manifest and apply 
+
+- helm show values  stable/prometheus-operator > values.yaml     
+- helm install prometheus-operator stable/prometheus-operator -f values.yaml
